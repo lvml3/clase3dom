@@ -1,0 +1,127 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+
+.bgImg {
+    background-image: url(../images/witch_from_mercury.0.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#Solicitud {
+    background-image: transparent;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 5rem;
+    display: inline-flexbox;
+}
+
+section {
+    display: flexbox;
+    justify-content:space-around;
+    width: 100%;
+    margin:.2px auto;
+    padding:2px;
+}  
+
+#cajamadre {
+    width:100%;
+    height:350px;
+    position: relative;
+    overflow: hidden;
+    padding: .3rem;
+}
+
+.imgcaja {
+    width:80%;
+    height:80%;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border-color: black;
+    border-radius: 80px;
+    background-color: transparent;
+    border: 2px solid;
+}
+
+.menu a {
+    text-decoration:double;
+    color: black;
+    display: flexbox;
+    justify-content:flex-start;
+    background-color: transparent;
+}
+    
+.products-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+}
+
+.products-container img {
+    border-radius: 5%;
+    margin: 0.5rem 0;
+    width: 150px;
+}
+
+.textosobreimg {
+    display:none;
+    position:absolute;
+    bottom:0px;
+    z-index:10;
+    width:55%;
+    height:15%;
+    padding:.8em;
+    font-size:15px;
+    color:black;
+}
+
+.uno,.dos,.tres,.cuatro,.cinco,.seis,.siete,.ocho,.nueve,.diez,.once,.doce,.trece,.catorce {
+    width:100%;
+    display:inline-block;
+    margin:0px auto;
+    padding:.2px;
+    width:33%;
+}
+
+.uno {
+    width: 15%;}
+.dos {
+    width: 15%;}
+.tres {
+    width: 15%;}
+.cuatro {
+    width: 15%;}
+.cinco {
+    width: 15%;}
+.seis {
+    width: 15%;}
+.siete {
+    width: 15%;}
+.ocho {
+    width: 15%;}
+.nueve {
+    width: 15%;}
+.diez {
+    width: 15%;}
+.once {
+    width: 15%;}
+.doce {
+    width: 15%;}
+.trece {
+    width: 15%;}
+.catorce {
+    width: 15%;}
+
+#cajamadre:hover .textosobreimg {
+    display:block;
+}
+
+
+
+
+

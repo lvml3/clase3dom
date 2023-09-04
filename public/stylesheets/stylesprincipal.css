@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0.1%;
+    background-color: lightcyan;
+}
+
+.margin {
+    margin: .3rem;
+}
+
+.Top {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+
+.topContainer {
+    display: flex;
+    justify-content: space-around;
+}    
+
+.topC {
+    width: 280%;
+    height: 300px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: beige;
+    border-color: black;
+    border-radius: 20px;
+    border-style:hidden;
+}
+
+.imgC {
+    background-image: url(../images/Gundam\ Serpentine.png); 
+}
+
+.centerMenu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.centerContainer {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.simpleContainer1 {
+    display: flex;
+    flex-wrap: nowrap;
+    min-width: 45%;
+    justify-content: space-between;
+    background-image: url(../images/GMSMBO_GameBanner_1280x720.jpg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.simpleContainer2 {
+    display: flex;
+    flex-wrap: nowrap;
+    min-width: 45%;
+    justify-content: space-between;
+    background-image: url(../images/Wing+Zero+EW+-+PRINT.jpg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bottomCenter {
+    width: 50%;
+    height: 212px;
+    background-image: url(../images/GN-0000.00.Gundam.600.3049452.jpg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.footer.sociales {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: lawngreen;
+}
+
+footer li {
+    display: inline-block;
+    margin: 1rem;
+    padding: 1rem;
+    
+}
+
+.margin1 {
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    height: 80px;
+    margin-right: 20px;
+    border-color: blue;
+    border-radius: 20px;
+    background-color: white;
+    border-style: inset;
+}
+
